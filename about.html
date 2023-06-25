@@ -1,110 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style> 
-  body {
-    font-family: "Arial", sans-serif;
-    background-color: #f9f1f3;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #f06292;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    body {
+      font-family: "Arial", sans-serif;
+      background-color: #f9f1f3;
+      margin: 0;
+      padding: 0;
+    }
 
-  .logo-container {
-    margin-right: 10px;
-  }
+    header {
+      background-color: #f06292;
+      padding: 20px;
+      text-align: center;
+    }
 
-  .logo {
-    width: 50px;
-    height: auto;
-  }
+    .logo-container {
+      margin-right: 10px;
+    }
 
-  .header-text {
-    margin: 0;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
+    .logo {
+      width: 50px;
+      height: auto;
+    }
 
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
+    .header-text {
+      margin: 0;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
 
-  .navbar {
-    background-color: #fce4ec;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
 
-  .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
+    .navbar {
+      background-color: #fce4ec;
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
 
-  .navbar li {
-    margin: 0 10px;
-  }
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
 
-  .navbar li a {
-    text-decoration: none;
-    color: #f06292;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: color 0.3s;
-  }
+    .navbar li {
+      margin: 0 10px;
+    }
 
-  .navbar li a:hover {
-    color: #880e4f;
-  }
+    .navbar li a {
+      text-decoration: none;
+      color: #f06292;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: color 0.3s;
+    }
 
-  .content {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-  }
+    .navbar li a:hover {
+      color: #880e4f;
+    }
 
-  .content h2 {
-    color: #f06292;
-    text-align: center;
-    margin-bottom: 20px;
-  }
+    .content {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+    }
 
-  .content p {
-    color: #555555;
-    line-height: 1.5;
-    text-align: justify;
-  }
+    .content h2 {
+      color: #f06292;
+      text-align: center;
+      margin-bottom: 20px;
+    }
 
-  .footer {
-    background-color: #f06292;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
-  }
+    .content p {
+      color: #555555;
+      line-height: 1.5;
+      text-align: justify;
+    }
 
-  .footer p {
-    margin: 5px 0;
-  }
-  
+    .footer {
+      background-color: #f06292;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    .footer p {
+      margin: 5px 0;
+    }
+
+    /* Responsive Styles */
+    @media screen and (max-width: 600px) {
+      .header-text {
+        font-size: 20px;
+      }
+
+      .navbar li {
+        margin: 0 5px;
+      }
+
+      .content {
+        padding: 10px;
+      }
+
+      .footer {
+        padding: 10px;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .header-text {
+        font-size: 18px;
+      }
+
+      .navbar {
+        padding: 5px;
+      }
+
+      .navbar li {
+        margin: 0 3px;
+      }
+
+      .content {
+        padding: 5px;
+      }
+
+      .footer {
+        padding: 5px;
+      }
+    }
   </style>
-    <title>Joy Prints -About</title>
-
+  <title>Joy Prints - About</title>
 </head>
 <body>
   <header>
@@ -128,12 +165,11 @@
     <main class="content">
       <h2>About Joy Prints</h2>
 
-      <p>Welcome to Joy Prints, your ultimate destination for all your printing and photocopying needs. We are dedicated to providing high-quality services for students, and anyone in need of reliable and efficient document reproduction.</p>
+      <p>Welcome to Joy Prints, your ultimate destination for all your printing and photocopying needs. We are dedicated to providing high-quality services for students and anyone in need of reliable and efficient document reproduction.</p>
       <p>At Joy Prints, we understand the importance of delivering exceptional results. Whether you need to print assignments, create posters, or make copies of important documents, our advanced equipment and experienced team ensure high-quality output every time.</p>
       <p>We pride ourselves on our commitment to customer satisfaction.</p>
       <p>With our convenient location on campus, you can easily access our services whenever you need them. We strive to provide a comfortable and welcoming environment, making your printing experience enjoyable and stress-free.</p>
       <p>Experience the joy of effortless printing and outstanding results at Joy Prints.</p>
-
     </main>
   </div>
 
